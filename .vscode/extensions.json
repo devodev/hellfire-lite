@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "visualstudiotoolsforunity.vstuc",
+        "editorconfig.editorconfig",
+        "usernamehw.errorlens",
+        "mhutchie.git-graph",
+        "yzhang.markdown-all-in-one",
+        "davidanson.vscode-markdownlint",
+        "wayou.vscode-todo-highlight",
+        "shardulm94.trailing-spaces",
+        "esbenp.prettier-vscode"
+    ]
+}
