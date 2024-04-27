@@ -1,4 +1,7 @@
 {
+    "files.exclude": {
+        "**/*.meta": true
+    },
     "dotnet.defaultSolution": "explore.sln",
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
