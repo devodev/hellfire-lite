@@ -13,16 +13,18 @@ public class PlayerController : MonoBehaviour {
     bool isMoving;
 
     void Update() {
-        Vector3 moveDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        this.movePlayer(moveDirection);
+        Vector3 direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        this.movePlayer(direction);
 
         // show engine effect if moving
         this.EngineEffect.SetActive(this.isMoving);
     }
 
     void movePlayer(Vector3 direction) {
+        var movement = direction.normalized * (this.Speed * Time.deltaTime);
+
         var oldPos = this.transform.position;
-        var newPos = oldPos + direction * (this.Speed * Time.deltaTime);
+        var newPos = oldPos + movement;
         this.isMoving = oldPos != newPos;
 
         if (this.isMoving) {
