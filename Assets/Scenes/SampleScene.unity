@@ -250,7 +250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 78219594}
   m_Layer: 10
-  m_Name: UpRight
+  m_Name: ShootPointUpRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -281,7 +281,7 @@ GameObject:
   m_Component:
   - component: {fileID: 148359674}
   m_Layer: 10
-  m_Name: Back
+  m_Name: ShootPointBack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -744,7 +744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4b52a2f24164154a86c9ecb506c281a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ProjectilePrefab: {fileID: 747889874117883979, guid: 7bed7aa286d174446b211b166be82cbe, type: 3}
+  ProjectilePrefab: {fileID: 2446890420250909339, guid: a1573dacfc0dc2348a1b4b20a355c26a, type: 3}
   ShootKey: 32
   ShootDelayMs: 80
   ProjectileSpeed: 6
@@ -996,7 +996,7 @@ GameObject:
   m_Component:
   - component: {fileID: 966457075}
   m_Layer: 10
-  m_Name: DownRight
+  m_Name: ShootPointDownRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1111,7 +1111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1252687304}
   m_Layer: 10
-  m_Name: Front
+  m_Name: ShootPointFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1142,7 +1142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1306812775}
   m_Layer: 10
-  m_Name: UpLeft
+  m_Name: ShootPointUpLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1173,7 +1173,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1437502870}
   m_Layer: 10
-  m_Name: DownLeft
+  m_Name: ShootPointDownLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1394,7 +1394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1636561359}
   m_Layer: 10
-  m_Name: Up
+  m_Name: ShootPointUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1461,7 +1461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4b52a2f24164154a86c9ecb506c281a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ProjectilePrefab: {fileID: 747889874117883979, guid: 649a788bdf5a84c429e492dfb253327c, type: 3}
+  ProjectilePrefab: {fileID: 2492073475969157116, guid: 60e0fff4fd4c48448be061c0fed316dc, type: 3}
   ShootKey: 32
   ShootDelayMs: 80
   ProjectileSpeed: 6
@@ -1511,7 +1511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4b52a2f24164154a86c9ecb506c281a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ProjectilePrefab: {fileID: 747889874117883979, guid: e1019fdb55b0c5b4b8fb41a0e4ff15fa, type: 3}
+  ProjectilePrefab: {fileID: 8728418624858232660, guid: 6583597d208cfb14a944199a59424f65, type: 3}
   ShootKey: 32
   ShootDelayMs: 80
   ProjectileSpeed: 6
@@ -1561,7 +1561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4b52a2f24164154a86c9ecb506c281a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ProjectilePrefab: {fileID: 747889874117883979, guid: ac1e43d25c5e6a94383b77aadbfca32b, type: 3}
+  ProjectilePrefab: {fileID: 113449617248572558, guid: 01d9bb5e6ee653143ab09420569fe415, type: 3}
   ShootKey: 32
   ShootDelayMs: 80
   ProjectileSpeed: 6
@@ -1576,7 +1576,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2136203620}
   m_Layer: 10
-  m_Name: Down
+  m_Name: ShootPointDown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
