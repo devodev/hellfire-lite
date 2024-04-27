@@ -99,10 +99,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52d65856592617f40bbda810951ce8de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitPrefab: {fileID: 0}
   DamageAmount: 10
-  Direction: {x: 1, y: 0, z: 0}
+  Direction: 0
   Speed: 30
   Tint: {r: 1, g: 1, b: 1, a: 1}
+  TimeToLive: 5
 --- !u!50 &4837973914672567087
 Rigidbody2D:
   serializedVersion: 4
@@ -128,7 +130,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!60 &5505787222477926129
 PolygonCollider2D:
